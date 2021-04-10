@@ -1,0 +1,40 @@
+{
+  "name": "Proyecto1-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mar19845/Proyecto1-web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mar19845/Proyecto1-web/issues"
+  },
+  "homepage": "https://github.com/Mar19845/Proyecto1-web#readme",
+  "dependencies": {
+    "css-loader": "^5.2.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "style-loader": "^2.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.15",
+    "@babel/preset-env": "^7.13.15",
+    "@babel/preset-react": "^7.13.13",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.2",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.1",
+    "webpack": "^5.31.2",
+    "webpack-cli": "^4.6.0"
+  }
+}
