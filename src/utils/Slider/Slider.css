@@ -1,0 +1,81 @@
+.Slider-Cont{
+    justify-content: center;
+    align-items: center;
+    background-color: #2b4f6f;
+    position: relative;
+    height: 300px;
+}
+.container {
+    position: relative;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2b4f6f;
+    top: 5%;
+}
+  
+.image {
+
+    width: 250px;
+    height: 250px;
+    border-radius: 0px;
+}
+  
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 14.5px;
+    right: 0px;
+    background-color: #2b4f6f;
+    overflow: hidden;
+    width: 90%;
+    height: 125px;
+    transition: .5s ease;
+    opacity: 0.6;
+}
+  
+.container:hover .overlay {
+    height: 200px;
+}
+  
+.text {
+    white-space: nowrap; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.right-arrow{
+    position: absolute;
+    top: 50%;
+    right: 32px;
+    font-size: 3rem;
+    color: black;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+.left-arrow{
+    position: absolute;
+    top: 50%;
+    left: 32px;
+    font-size: 3rem;
+    color: black;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+.slide{
+    opacity: 0;
+    transition-duration: 1s ease;
+}
+.slide.active{
+    opacity: 1;
+    transition-duration: 1s ;
+    transform: scale(1.08);
+}
