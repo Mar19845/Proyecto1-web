@@ -21,3 +21,13 @@
     height: 30px;
     width: 30px;
 }
+.foot-a{
+    outline: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.foot-a:hover{
+    
+    color: white
+}

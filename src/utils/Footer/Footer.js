@@ -16,12 +16,13 @@ const Footer = () => {
             <div className="foot-cont">
                 <div className="foot-row">
                     <div className="foot-col">
-                        <h4>SEGUINOS</h4>
+                        <h4  className="foot-a" >SEGUINOS</h4>
                         <FaYoutube className="foot-logo"/>
                         <FaInstagram className="foot-logo"/>
                         <FaFacebookSquare className="foot-logo"/>
                         <FaTwitter className="foot-logo"/>
                         <FaMusic className="foot-logo"/>
+                        <a href="#" className="foot-a">Contactanos</a>
                         <img src={data}/>
                     </div>
                     <div className="foot-col">
