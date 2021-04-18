@@ -1,0 +1,69 @@
+.grid-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    width: 100%;
+
+}
+.grid-center{
+
+    width: 900px;
+    height: 900px;
+    
+}
+.filaG{
+    display: flex;
+    width: 100%;
+}
+.containerG {
+    position: relative;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 5%;
+}
+.contPromo{
+    position: relative;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 5%;
+}
+  
+.imageG {
+
+    width: 300px;
+    height: 300px;
+    border-radius: 0px;
+}
+  
+.overlayG {
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    background-color: white;
+    overflow: hidden;
+    width: 300px;
+    height: 125px;
+    transition: .5s ease;
+    
+}
+  
+.containerG:hover .overlayG {
+    height: 200px;
+}
+  
+.textG {
+    white-space: nowrap; 
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    overflow: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}

@@ -1,0 +1,69 @@
+.header {
+    flex: 1;
+    flex-direction: column;
+    background-color: #003290;
+    
+    position: sticky;
+    top: 0;
+}
+  
+.header-top {
+    display: flex;
+    width: 100%;
+    height: 120px;
+    flex-direction: row;
+    background-color: #003290;
+    
+}
+  
+.header-top__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    background-color: #003290;
+   
+}
+  
+.Boca-logo {
+    color: inherit;
+    text-decoration: inherit;
+    font-family: RobotoThin;
+    font-size: 100px;
+    height:150px;
+    width: 250px;
+}
+  
+.patrocinadores {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: #003290;
+}
+.BocaNombre{
+    color:white;
+    width: 200px;
+}
+
+.marcas {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 50px;
+    background-color: #003290;
+    height: 100px;
+    width: 20%;
+    position: relative;
+    top: 10px;
+}
+  
+.header-bottom {
+    display: flex;
+    flex: 1;
+    margin-top: 6px;
+    background-color: #02236d;
+    
+}
+  

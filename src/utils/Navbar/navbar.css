@@ -1,0 +1,61 @@
+.navbar {
+    display:table-column;
+    justify-content:space-between;
+}
+.navbar-top{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+.navbar-down{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    align-items: center;
+}
+.navbar-item {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    color: inherit;
+    text-decoration: inherit;
+    text-transform: uppercase;
+    outline: none;
+    color: white
+}
+.twitter{
+    background-color: #02236c;
+    position: relative;
+    width: 300px;
+    padding: 0px;
+    top: 10px;
+}
+.navbar-item:hover{
+    color:goldenrod;
+}
+.Search{
+    resize: none;
+    background-color: #02236c;
+    border: none;
+    overflow:hidden;
+    color:white;
+    height: 50px;
+    width: 300px;
+    margin-left: 15px;
+}
+.Search::placeholder{
+    color:#F9F6EE;
+}
+.Busqueda{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 15px;
+}
+.Lupa{
+    color:white;
+    height: 25px;
+    margin-left: 15px;
+}
