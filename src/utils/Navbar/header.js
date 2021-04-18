@@ -7,7 +7,7 @@ import addidas from '../Imagenes/Navbar/addidas.png';
 import garbarino from '../Imagenes/Navbar/garbarino.png';
 import pes from '../Imagenes/Navbar/pes.png';
 import qatar from '../Imagenes/Navbar/qatar.png';
-import { Nav } from 'react-bootstrap';
+
 
 class Header extends Component {
     render() {

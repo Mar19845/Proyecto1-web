@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import './navbar.css';
 import { TwitterTimelineEmbed } from 'react-twitter-embed';
 import { Timeline } from 'react-twitter-widgets';
-import { GoSearch } from "react-icons/fa";
 import { FaSistrix } from 'react-icons/fa';
 //class Navbar extends Component {
 const Navbar = () => {
