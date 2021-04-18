@@ -2,7 +2,7 @@
     flex: 1;
     flex-direction: column;
     background-color: #003290;
-    
+    z-index: 20;
     position: sticky;
     top: 0;
 }

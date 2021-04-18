@@ -16,11 +16,12 @@ const grid = () => {
 
         <div className="grid-cont" >
             <div className="grid-center">
+                <h3>Últimas noticias</h3>
                 <div className="filaG">
 
-                    
+
                     <img src={beneficios} className="contPromo" />
-                    
+
 
                     <div className="containerG"  >
                         <img src={plantel} className="imageG" />
@@ -53,9 +54,9 @@ const grid = () => {
                         </div>
                     </div>
 
-                    
+
                     <img src={bbva} className="contPromo" />
-                    
+
                 </div>
 
 

@@ -8,6 +8,7 @@ import Header from './utils/Navbar/header';
 import Grid from './utils/Grid/grid';
 import Blue from './utils/Blue/Blue';
 import Footer from './utils/Footer/Footer';
+import Videos from './utils/Videos/Videos';
 // <Slider/><Header /><Grid />  
 
 class App extends Component {
@@ -19,6 +20,7 @@ class App extends Component {
                     <Slider />
                     <Grid />
                     <Blue />
+                    <Videos />
                 </div>
                 <Footer />
             </div>
