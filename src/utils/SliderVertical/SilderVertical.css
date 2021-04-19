@@ -1,0 +1,43 @@
+.vertical-cont{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: pink;
+    overflow: hidden;
+}
+.left-arrowV{
+    position: absolute;
+    top: 50%;
+    left: 32px;
+    font-size: 3rem;
+    color: white;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+
+}
+.right-arrowV{
+    position: absolute;
+    top: 50%;
+    right: 32px;
+    font-size: 3rem;
+    color: white;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+
+}
+.slideV{
+    opacity: 0;
+    transition-duration: 1s ease;
+}
+.slideV.activeV{
+    opacity: 1;
+    transition-duration: 1s ;
+    transform: scale(1.08);
+}
+.cont-V{
+    overflow: hidden;
+}

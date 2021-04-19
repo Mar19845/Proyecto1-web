@@ -4,6 +4,7 @@ import './App.css';
 
 
 import Slider from './utils/Slider/Slider';
+import SliderVertical from './utils/SliderVertical/SliderVertical';
 import Header from './utils/Navbar/header';
 import Grid from './utils/Grid/grid';
 import Blue from './utils/Blue/Blue';
@@ -17,6 +18,7 @@ class App extends Component {
             <div className="app">
                 <div className="app-wrap-cont">
                     <Header />
+                    <SliderVertical />
                     <Slider />
                     <Grid />
                     <Blue />
